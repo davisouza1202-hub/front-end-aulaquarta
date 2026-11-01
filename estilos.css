@@ -1,20 +1,16 @@
-/* =========================================================
-   Educação em Pista - estilos usados nas 4 páginas
-   Cores inspiradas no capacete do Ayrton Senna:
-   amarelo, verde e azul.
-   ========================================================= */
-
-/* Variáveis: cores e fontes ficam todas aqui.
-   Para mudar uma cor do site inteiro, basta mudar neste lugar. */
-:root {
-  --amarelo: #ffd100;
-  --verde: #0b7a3e;
-  --azul: #1b3a9c;
-  --azul-escuro: #0f1f4d;
-  --gelo: #eef2f9;
-  --branco: #ffffff;
-  --vermelho: #b3261e;
-
-  --fonte-titulo: "Archivo", "Arial Black", Arial, sans-serif;
-  --fonte-texto: "Atkinson Hyperlegible", Arial, sans-serif;
+/* 1. REGRAS GERAIS: aparência usada nas quatro páginas. */
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+  color: #0f1f4d;
 }
+h1, h2, h3 { line-height: 1.2; margin: 0 0 16px; }
+h1 { font-size: 40px; }
+h2 { font-size: 30px; }
+h3 { font-size: 22px; }
+p { margin: 0 0 20px; }
+a { color: #1b3a9c; }
+img { max-width: 100%; height: auto; }
