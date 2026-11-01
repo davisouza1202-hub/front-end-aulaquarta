@@ -23,3 +23,9 @@ O site usa o universo do automobilismo, ligado à história de Ayrton Senna: as 
 | `sobre.html` | História (linha do tempo), missão, público atendido e objetivos |
 | `projetos.html` | Três frentes de atuação, cada uma com imagem e forma de a comunidade contribuir |
 | `contato.html` | Formulário com validação, orientações de participação e aviso de envio simulado |
+
+
+## Duas funcionalidades em JavaScript (`js/participacao.js` e `js/formulario.js`)
+
+1. **Interação adicional:** na página inicial, o botão "Como posso participar?" mostra e esconde um painel. O texto do botão muda a cada clique.
+2. **Formulário validado:** na página de contato, o evento `submit` é tratado com `addEventListener()` e `preventDefault()`. Confere nome (3+ caracteres), e-mail válido, assunto preenchido e mensagem (10+ caracteres, depois de `trim()`). Mostra o erro ou a confirmação na própria página. A confirmação é **simulada**: nada é enviado nem guardado.
