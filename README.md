@@ -5,7 +5,11 @@ Protótipo acadêmico de site institucional, inspirado no **Instituto Ayrton Sen
 
 ## Integrantes
 
-
+- Caio Santos Alencar - 47052830
+- Davi de Souza - 47169826
+- Ezequiel Soares da Silva - 47205521
+- Gabriel Ferraz Aguiar Tricai - 47142014
+- Italo Guilherme Silva Nunes - 47189771
 
 ## Objetivo
 
@@ -29,3 +33,22 @@ O site usa o universo do automobilismo, ligado à história de Ayrton Senna: as 
 
 1. **Interação adicional:** na página inicial, o botão "Como posso participar?" mostra e esconde um painel. O texto do botão muda a cada clique.
 2. **Formulário validado:** na página de contato, o evento `submit` é tratado com `addEventListener()` e `preventDefault()`. Confere nome (3+ caracteres), e-mail válido, assunto preenchido e mensagem (10+ caracteres, depois de `trim()`). Mostra o erro ou a confirmação na própria página. A confirmação é **simulada**: nada é enviado nem guardado.
+
+## Estrutura de arquivos
+
+```
+ONG_Educacao_em_Pista/
+├── index.html · sobre.html · projetos.html · contato.html
+├── css/estilos.css
+├── js/participacao.js e js/formulario.js
+├── img/ (pista.svg e três ilustrações das frentes)
+└── README.md
+```
+
+## Como executar
+
+Descompacte o ZIP e abra `index.html` no navegador. Use o menu para navegar entre as páginas. Não precisa instalar nada. A fonte usada é Arial, disponível no computador. Não há dependências para instalar.
+
+## Tecnologias
+
+HTML5 semântico, CSS3 (Flexbox, `box-sizing` e `@media`) e JavaScript básico (funções, `if/else`, eventos e DOM).
