@@ -14,3 +14,21 @@ h3 { font-size: 22px; }
 p { margin: 0 0 20px; }
 a { color: #1b3a9c; }
 img { max-width: 100%; height: auto; }
+/* Dá destaque ao elemento selecionado com a tecla Tab. */
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible {
+  outline: 3px solid #0b7a3e;
+  outline-offset: 4px;
+}
+/* A caixa ocupa a tela disponível, até o limite de 1120px. */
+.limite { width: 100%; max-width: 1120px; margin: 0 auto; padding: 0 24px; }
+.secao { padding: 48px 0; }
+.fundo-gelo { background: #eef2f9; }
+
+/* 2. CABEÇALHO: Flexbox coloca os elementos lado a lado. */
+.topo { border-top: 8px solid #0b7a3e; }
+.barra { display: flex; justify-content: space-between; align-items: center; gap: 20px; padding-top: 20px; padding-bottom: 20px; }
+.marca { font-size: 22px; font-weight: bold; color: #0f1f4d; text-decoration: none; }
+.menu { display: flex; gap: 4px; }
+.menu a { padding: 8px 12px; text-decoration: none; font-weight: bold; }
+.menu a:hover { background: #ffd100; color: #0f1f4d; }
+.menu a[aria-current="page"] { background: #1b3a9c; color: white; }
